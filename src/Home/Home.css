@@ -1,0 +1,43 @@
+.btn{
+    margin-right: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #a9cfdc!important;
+}
+.btn1{
+   color: rgb(58, 58, 211)!important;
+}
+.btn2{
+    color: rgb(22, 91, 10)!important;
+ }
+ .btn3{
+    color: rgb(195, 17, 11)!important;
+ }
+ .create-btn{
+    margin-left: 1200px;
+    margin-bottom: 35px;
+ }
+ .create-btn:hover{
+    color: black!important;
+    background-color: rgb(87, 137, 195)!important;
+ }
+ .search-container {
+   position: relative;
+   display: flex;
+   align-items: center;
+}
+
+.search-input {
+   padding: 8px 30px 8px 10px;  /* Adding padding to the right to make space for the icon */
+   width: 200px;
+}
+
+.search-icon {
+   position: absolute;
+   right: 50px;
+   pointer-events: none;  /* Prevent icon from blocking input */
+   color: #aaa;  /* Light gray color for the icon */
+}
